@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav">
+        <h1 class="logo">Your Name</h1>
+        <button id="themeToggle" class="btn small" aria-label="Toggle theme">Toggle Theme</button>
+      </nav>
+      <div class="hero-content">
+        <p class="tag">Web Developer</p>
+        <h2>I build clean and fast web experiences.</h2>
+        <p>
+          I design and develop responsive websites and small web apps with HTML, CSS,
+          JavaScript, and modern tooling.
+        </p>
+        <a class="btn" href="#projects">View Projects</a>
+      </div>
+    </header>
+
+    <main>
+      <section id="about" class="section">
+        <h3>About Me</h3>
+        <p>
+          I am a developer focused on building practical user-friendly products.
+          I enjoy solving real-world problems through simple and reliable code.
+        </p>
+      </section>
+
+      <section id="projects" class="section">
+        <h3>Projects</h3>
+        <div class="grid">
+          <article class="card">
+            <h4>Portfolio Website</h4>
+            <p>A personal website to showcase my work and skills.</p>
+            <a href="#">Live Demo</a>
+          </article>
+          <article class="card">
+            <h4>Task Tracker</h4>
+            <p>A lightweight task manager with local storage support.</p>
+            <a href="#">GitHub Repo</a>
+          </article>
+          <article class="card">
+            <h4>Weather Dashboard</h4>
+            <p>A weather app that consumes external APIs and displays forecasts.</p>
+            <a href="#">Live Demo</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <h3>Contact</h3>
+        <p>Email: you@example.com</p>
+        <p>GitHub: github.com/your-username</p>
+        <p>LinkedIn: linkedin.com/in/your-username</p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; <span id="year"></span> Your Name. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
