@@ -1,68 +1,91 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
+    <title>Shohjahon Marupov | Фотограф и контент-мейкер</title>
+    <meta
+      name="description"
+      content="Портфолио Shohjahon Marupov — фотограф и контент-мейкер. Съёмки для брендов, личных проектов и социальных сетей."
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="hero">
       <nav class="nav">
-        <h1 class="logo">Your Name</h1>
-        <button id="themeToggle" class="btn small" aria-label="Toggle theme">Toggle Theme</button>
+        <p class="logo">Shohjahon Marupov</p>
+        <a class="nav-link" href="#contacts">Связаться</a>
       </nav>
       <div class="hero-content">
-        <p class="tag">Web Developer</p>
-        <h2>I build clean and fast web experiences.</h2>
+        <p class="tag">Фотограф • Контент-мейкер</p>
+        <h1>Визуальный контент, который усиливает ваш бренд</h1>
         <p>
-          I design and develop responsive websites and small web apps with HTML, CSS,
-          JavaScript, and modern tooling.
+          Меня зовут Шохжахон Марупов, мне 26 лет. Создаю атмосферные фото и динамичный
+          контент для бизнеса, личных проектов и соцсетей.
         </p>
-        <a class="btn" href="#projects">View Projects</a>
+        <a class="btn" href="#portfolio">Смотреть портфолио</a>
       </div>
     </header>
 
     <main>
       <section id="about" class="section">
-        <h3>About Me</h3>
+        <h2>Обо мне</h2>
         <p>
-          I am a developer focused on building practical user-friendly products.
-          I enjoy solving real-world problems through simple and reliable code.
+          Я работаю на стыке фотографии и контент-продакшена: от идеи и референсов до
+          финальной обработки. Моя задача — показать характер вашего продукта или личности
+          через сильный визуал.
         </p>
       </section>
 
-      <section id="projects" class="section">
-        <h3>Projects</h3>
+      <section id="services" class="section">
+        <h2>Услуги</h2>
         <div class="grid">
           <article class="card">
-            <h4>Portfolio Website</h4>
-            <p>A personal website to showcase my work and skills.</p>
-            <a href="#">Live Demo</a>
+            <h3>Фотосъёмка</h3>
+            <p>Портреты, lifestyle, предметная и бренд-съёмка с упором на стиль и эмоции.</p>
           </article>
           <article class="card">
-            <h4>Task Tracker</h4>
-            <p>A lightweight task manager with local storage support.</p>
-            <a href="#">GitHub Repo</a>
+            <h3>Контент для соцсетей</h3>
+            <p>Серии фото и короткие ролики для Instagram и других площадок.</p>
           </article>
           <article class="card">
-            <h4>Weather Dashboard</h4>
-            <p>A weather app that consumes external APIs and displays forecasts.</p>
-            <a href="#">Live Demo</a>
+            <h3>Пост-продакшн</h3>
+            <p>Цветокоррекция, ретушь и финальная подготовка контента под нужный формат.</p>
           </article>
         </div>
       </section>
 
-      <section id="contact" class="section">
-        <h3>Contact</h3>
-        <p>Email: you@example.com</p>
-        <p>GitHub: github.com/your-username</p>
-        <p>LinkedIn: linkedin.com/in/your-username</p>
+      <section id="portfolio" class="section">
+        <h2>Портфолио</h2>
+        <div class="gallery">
+          <div class="gallery-item">Fashion</div>
+          <div class="gallery-item">Lifestyle</div>
+          <div class="gallery-item">Brand Story</div>
+          <div class="gallery-item">City Frames</div>
+        </div>
+      </section>
+
+      <section id="contacts" class="section contact">
+        <h2>Контакты</h2>
+        <p>
+          Телефон:
+          <a href="tel:+79965669332">+7 996 566-93-32</a>
+        </p>
+        <p>
+          Email:
+          <a href="mailto:shoh@bk.ru">shoh@bk.ru</a>
+        </p>
+        <p>
+          Instagram:
+          <a href="https://instagram.com/thisishoh" target="_blank" rel="noopener noreferrer"
+            >@thisishoh</a
+          >
+        </p>
       </section>
     </main>
 
     <footer class="footer">
-      <p>&copy; <span id="year"></span> Your Name. All rights reserved.</p>
+      <p>&copy; <span id="year"></span> Shohjahon Marupov. Все права защищены.</p>
     </footer>
 
     <script src="script.js"></script>
