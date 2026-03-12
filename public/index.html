@@ -3,219 +3,287 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SM GROUP | Фотографы</title>
+    <title>SM GROUP | Команда профессиональных фотографов</title>
     <meta
       name="description"
-      content="SM GROUP — команда из 4 фотографов: свадьбы, бренды, портреты и визуальные истории."
+      content="SM GROUP — премиальная команда фотографов: свадебная, портретная, коммерческая и креативная съёмка."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="shell">
-      <nav class="top-nav" id="top">
-        <p class="brand">SM GROUP</p>
-        <ul>
+    <header class="hero" id="top">
+      <div
+        class="hero-bg"
+        data-parallax="0.16"
+        style="background-image: url('https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=2100&q=80');"
+      ></div>
+      <div class="hero-overlay"></div>
+
+      <nav class="nav container">
+        <a class="brand" href="#top">SM GROUP</a>
+        <ul class="nav-links">
           <li><a href="#about">О нас</a></li>
-          <li><a href="#work">Работы</a></li>
           <li><a href="#team">Команда</a></li>
+          <li><a href="#portfolio">Портфолио</a></li>
+          <li><a href="#services">Услуги</a></li>
           <li><a href="#contact">Контакты</a></li>
         </ul>
       </nav>
 
-      <main class="layout">
-        <section class="left-stage" id="about">
-          <p class="side-word">PORTFOLIO</p>
+      <div class="hero-content container reveal">
+        <p class="eyebrow">SM GROUP</p>
+        <h1>
+          SM GROUP
+          <span>Команда профессиональных фотографов</span>
+        </h1>
+        <p class="hero-subtitle">Мы создаём визуальные истории, которые остаются навсегда.</p>
+        <a class="btn" href="#portfolio">Смотреть портфолио</a>
+      </div>
+    </header>
 
-          <div class="hero-stack">
-            <article class="hero-text-card">
-              <h1>Мы создаем воспоминания, которые остаются с вами навсегда.</h1>
-              <p>
-                SM GROUP помогает сохранить важные моменты жизни: от семейных историй до
-                коммерческих съемок для брендов.
-              </p>
-              <a href="#contact" class="btn">Обсудить съемку</a>
-            </article>
+    <main>
+      <section class="section container reveal" id="about">
+        <div class="section-head">
+          <p class="eyebrow">О нас</p>
+          <h2>О нас</h2>
+        </div>
+        <p class="about-text">
+          SM GROUP — это команда из четырёх профессиональных фотографов.<br />
+          Мы специализируемся на создании стильных, эмоциональных и художественных
+          фотографий.<br />
+          Наша цель — запечатлеть настоящие моменты, атмосферу и эмоции.
+        </p>
+      </section>
 
-            <figure class="hero-person">
-              <img
-                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=900&q=80"
-                alt="Фотограф SM GROUP с камерой"
-              />
-            </figure>
-
-            <figure class="hero-camera">
-              <img
-                src="https://images.unsplash.com/photo-1516724562728-afc824a36e84?auto=format&fit=crop&w=800&q=80"
-                alt="Пленочная камера"
-              />
-            </figure>
+      <section class="section section-dark reveal" id="team">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">Команда</p>
+            <h2>Наша команда</h2>
           </div>
 
-          <section class="about-block">
-            <h2>О нас</h2>
-            <p>
-              Мы работаем как единая команда из четырех фотографов. Продумываем идею,
-              подбираем стиль съемки и отдаем готовый результат в четкие сроки.
-            </p>
-
-            <div class="about-grid">
-              <figure class="wide-shot">
-                <img
-                  src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=1300&q=80"
-                  alt="Свадебная фотосессия"
-                />
-              </figure>
-              <figure>
-                <img
-                  src="https://images.unsplash.com/photo-1464863979621-258859e62245?auto=format&fit=crop&w=700&q=80"
-                  alt="Lifestyle съемка"
-                />
-              </figure>
-              <figure>
-                <img
-                  src="https://images.unsplash.com/photo-1526034332220-067b0f400e06?auto=format&fit=crop&w=700&q=80"
-                  alt="Модельная съемка"
-                />
-              </figure>
-            </div>
-
-            <div class="service-list">
-              <article>
-                <h3>Свадебная съемка</h3>
-                <p>Живые эмоции, естественный свет и полный фото-рассказ вашего дня.</p>
-              </article>
-              <article>
-                <h3>Модельные тесты</h3>
-                <p>Стильные портреты для портфолио, агентств и личного бренда.</p>
-              </article>
-              <article>
-                <h3>Природа и путешествия</h3>
-                <p>Кинематографичные кадры для рекламы, журналов и digital-проектов.</p>
-              </article>
-            </div>
-          </section>
-        </section>
-
-        <aside class="right-stage" id="work">
-          <section class="story-card">
-            <h2>Снимаем счастливые моменты и превращаем их в вашу историю.</h2>
-            <div class="small-grid">
+          <div class="team-grid">
+            <article class="team-card">
               <img
-                src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=700&q=80"
-                alt="Портрет в шляпе"
+                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=1000&q=80"
+                alt="Ева Миронова"
               />
+              <div>
+                <h3>Ева Миронова</h3>
+                <p class="role">Свадебный фотограф</p>
+                <p>
+                  Снимает живые истории свадебного дня, фокусируясь на эмоциях, свете и
+                  атмосфере.
+                </p>
+              </div>
+            </article>
+
+            <article class="team-card">
               <img
-                src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=700&q=80"
-                alt="Свадебная церемония"
+                src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=1000&q=80"
+                alt="Даниил Кравцов"
               />
-            </div>
-            <img
-              class="wide-banner"
-              src="https://images.unsplash.com/photo-1473132941581-8c83852b05e3?auto=format&fit=crop&w=1400&q=80"
-              alt="Пара в горах"
-            />
-          </section>
+              <div>
+                <h3>Даниил Кравцов</h3>
+                <p class="role">Портретный фотограф</p>
+                <p>
+                  Создаёт глубокие и стильные портреты для личного бренда, артистов и
+                  экспертов.
+                </p>
+              </div>
+            </article>
 
-          <section class="blog-card">
-            <h2>Блог</h2>
-            <div class="post-grid">
-              <article>
-                <img
-                  src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=500&q=80"
-                  alt="Бекстейдж съемки"
-                />
-                <p>Как подготовиться к съемке за 1 день</p>
-              </article>
-              <article>
-                <img
-                  src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=500&q=80"
-                  alt="Невеста"
-                />
-                <p>7 идей для свадебного контента</p>
-              </article>
-              <article>
-                <img
-                  src="https://images.unsplash.com/photo-1513278974582-3e1b4a4fa21f?auto=format&fit=crop&w=500&q=80"
-                  alt="Модель в студии"
-                />
-                <p>Студия или улица: что выбрать?</p>
-              </article>
-            </div>
-          </section>
-
-          <section class="review-card">
-            <h2>Отзывы клиентов</h2>
-            <div class="review-wrap">
+            <article class="team-card">
               <img
-                src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=700&q=80"
-                alt="Портрет клиентки"
+                src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=1000&q=80"
+                alt="Артур Исаев"
               />
-              <blockquote>
-                «Команда SM GROUP сняла наш день так, как мы мечтали: мягкий свет, живые эмоции
-                и очень быстрая отдача материала.»
-              </blockquote>
-            </div>
-          </section>
-        </aside>
-      </main>
+              <div>
+                <h3>Артур Исаев</h3>
+                <p class="role">Коммерческий фотограф</p>
+                <p>
+                  Работает с брендами и продуктами: продакшн рекламных и каталожных съёмок.
+                </p>
+              </div>
+            </article>
 
-      <section class="team-section" id="team">
-        <div class="heading-row">
-          <p>Команда</p>
-          <h2>4 фотографа SM GROUP</h2>
-        </div>
-
-        <div class="team-grid">
-          <article class="member-card">
-            <img
-              src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=800&q=80"
-              alt="София Марин"
-            />
-            <h3>София Марин</h3>
-            <p>Креативный директор, портретные и editorial-съемки.</p>
-          </article>
-          <article class="member-card">
-            <img
-              src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=80"
-              alt="Даниэль Круз"
-            />
-            <h3>Даниэль Круз</h3>
-            <p>Репортажный фотограф: мероприятия, travel и живые эмоции.</p>
-          </article>
-          <article class="member-card">
-            <img
-              src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=800&q=80"
-              alt="Арман Юсуф"
-            />
-            <h3>Арман Юсуф</h3>
-            <p>Коммерческая съемка для брендов, каталогов и рекламы.</p>
-          </article>
-          <article class="member-card">
-            <img
-              src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=800&q=80"
-              alt="Найла Сторм"
-            />
-            <h3>Найла Сторм</h3>
-            <p>Цветокоррекция и ретушь, финальный продакшн и стилизация.</p>
-          </article>
+            <article class="team-card">
+              <img
+                src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=1000&q=80"
+                alt="Ника Лаврова"
+              />
+              <div>
+                <h3>Ника Лаврова</h3>
+                <p class="role">Арт-фотограф</p>
+                <p>
+                  Отвечает за креативные проекты и художественную подачу с кинематографичным
+                  настроением.
+                </p>
+              </div>
+            </article>
+          </div>
         </div>
       </section>
 
-      <section class="contact" id="contact">
-        <h2>Готовы обсудить проект?</h2>
-        <p>Напишите нам, и мы подготовим концепцию съемки под вашу задачу.</p>
-        <a href="mailto:hello@smgroup.studio">hello@smgroup.studio</a>
+      <section class="cinematic-break">
+        <div
+          class="cinematic-media"
+          data-parallax="0.11"
+          style="background-image: url('https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=2200&q=80');"
+        ></div>
+        <div class="cinematic-overlay"></div>
       </section>
 
-      <footer class="footer">
-        <p>&copy; <span id="year"></span> SM GROUP. Все права защищены.</p>
-      </footer>
+      <section class="section container reveal" id="portfolio">
+        <div class="section-head">
+          <p class="eyebrow">Работы</p>
+          <h2>Портфолио</h2>
+        </div>
+
+        <div class="category-list" aria-label="Категории портфолио">
+          <span>Свадебная фотография</span>
+          <span>Портреты</span>
+          <span>Коммерческая съёмка</span>
+          <span>Креативные проекты</span>
+        </div>
+
+        <div class="gallery-grid">
+          <button
+            class="gallery-item large"
+            data-image="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=1800&q=80"
+            data-caption="Свадебная фотография"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=1200&q=80"
+              alt="Свадебная фотография"
+            />
+            <span>Свадебная фотография</span>
+          </button>
+
+          <button
+            class="gallery-item tall"
+            data-image="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1600&q=80"
+            data-caption="Портреты"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1000&q=80"
+              alt="Портретная съёмка"
+            />
+            <span>Портреты</span>
+          </button>
+
+          <button
+            class="gallery-item"
+            data-image="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1700&q=80"
+            data-caption="Коммерческая съёмка"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1000&q=80"
+              alt="Коммерческая съёмка в студии"
+            />
+            <span>Коммерческая съёмка</span>
+          </button>
+
+          <button
+            class="gallery-item wide"
+            data-image="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1800&q=80"
+            data-caption="Креативные проекты"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1300&q=80"
+              alt="Креативный проект у океана"
+            />
+            <span>Креативные проекты</span>
+          </button>
+
+          <button
+            class="gallery-item"
+            data-image="https://images.unsplash.com/photo-1526034332220-067b0f400e06?auto=format&fit=crop&w=1700&q=80"
+            data-caption="Портреты"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1526034332220-067b0f400e06?auto=format&fit=crop&w=1000&q=80"
+              alt="Стильный портрет"
+            />
+            <span>Портреты</span>
+          </button>
+
+          <button
+            class="gallery-item"
+            data-image="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=1700&q=80"
+            data-caption="Свадебная фотография"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=1000&q=80"
+              alt="Пара на свадебной съёмке"
+            />
+            <span>Свадебная фотография</span>
+          </button>
+        </div>
+      </section>
+
+      <section class="section section-dark reveal" id="services">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">Что мы делаем</p>
+            <h2>Услуги</h2>
+          </div>
+
+          <div class="services-grid">
+            <article>
+              <h3>Свадебная съёмка</h3>
+              <p>Полный съёмочный день, постановочные и репортажные кадры, авторская обработка.</p>
+            </article>
+            <article>
+              <h3>Портретная фотосессия</h3>
+              <p>Индивидуальные и семейные съёмки с акцентом на характер и стиль.</p>
+            </article>
+            <article>
+              <h3>Коммерческая фотография</h3>
+              <p>Контент для брендов, рекламы, соцсетей и маркетинговых кампаний.</p>
+            </article>
+            <article>
+              <h3>Индивидуальные проекты</h3>
+              <p>Креативные концепции, moodboard, арт-реализация под вашу идею.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container reveal" id="contact">
+        <div class="section-head">
+          <p class="eyebrow">Связаться с нами</p>
+          <h2>Связаться с нами</h2>
+        </div>
+
+        <div class="contact-grid">
+          <a href="https://instagram.com/smgroup.photo" target="_blank" rel="noopener noreferrer"
+            >Instagram</a
+          >
+          <a href="https://t.me/smgroupstudio" target="_blank" rel="noopener noreferrer"
+            >Telegram</a
+          >
+          <a href="mailto:hello@smgroup.studio">Почта: hello@smgroup.studio</a>
+          <a href="tel:+79960001234">Телефон: +7 996 000 12 34</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>SM GROUP</p>
+      <p>© 2026 Все права защищены</p>
+    </footer>
+
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+      <button class="lightbox-close" id="lightboxClose" aria-label="Закрыть">×</button>
+      <img id="lightboxImage" src="" alt="Увеличенное фото" />
+      <p id="lightboxCaption"></p>
     </div>
 
     <script src="script.js"></script>
