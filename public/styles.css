@@ -198,6 +198,30 @@ h2 {
   font-size: clamp(1rem, 1.5vw, 1.1rem);
 }
 
+.lead-spotlight {
+  margin-top: 1.3rem;
+  max-width: 760px;
+  border: 1px solid var(--line);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.03), rgba(211, 176, 123, 0.06));
+  padding: 1.1rem 1.15rem;
+}
+
+.lead-label {
+  font-size: 0.73rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: rgba(211, 176, 123, 0.9);
+}
+
+.lead-spotlight h3 {
+  margin-top: 0.28rem;
+}
+
+.lead-spotlight p:last-child {
+  color: var(--muted);
+  margin-top: 0.45rem;
+}
+
 .section-dark {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.01), rgba(255, 255, 255, 0));
   border-block: 1px solid var(--line);
@@ -219,6 +243,10 @@ h2 {
 .team-card:hover {
   transform: translateY(-6px);
   border-color: rgba(211, 176, 123, 0.38);
+}
+
+.team-card-lead {
+  border-color: rgba(211, 176, 123, 0.62);
 }
 
 .team-card img {
